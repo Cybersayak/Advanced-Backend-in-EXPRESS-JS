@@ -1,0 +1,24 @@
+{
+  "name": "advanced-backend-stuffs-in-nodejs",
+  "version": "1.0.0",
+  "description": "4",
+  "main": "serverS.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js",
+    "server": "nodemon server.js"
+  },
+  "author": "Sayak Ghosh",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^5.21.1",
+    "@vinejs/vine": "^2.1.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "nodemon": "^3.1.7"
+  },
+  "devDependencies": {
+    "prisma": "^5.21.1"
+  }
+}
